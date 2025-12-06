@@ -22,7 +22,7 @@ api_router = APIRouter(prefix="/api")
 # CORS middleware configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://16.171.113.198:3000", "http://localhost:9090"],  # Frontend URL
+    allow_origins=["http://16.171.113.198:9000", "http://localhost:9090"],  # Frontend URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
